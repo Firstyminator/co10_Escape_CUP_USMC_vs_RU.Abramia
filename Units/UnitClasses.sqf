@@ -660,6 +660,7 @@ a3e_arr_CivilianCarWeapons pushback [objNull, "SatchelCharge_Remote_Mag", 2];
 a3e_arr_CivilianCarWeapons pushback [objNull, "HandGrenade", 5];
 a3e_arr_CivilianCarWeapons pushback [objNull, "SmokeShell", 5];
 
+
 // Here is a list of scopes:
 a3e_arr_Scopes = [
 	"CUP_optic_Kobra"
