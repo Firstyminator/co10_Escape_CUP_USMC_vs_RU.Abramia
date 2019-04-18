@@ -48,7 +48,7 @@ ace_noradio_enabled = true;
 ace_parachute_hideAltimeter = true;
 
 // ACE Cook off
-ace_cookoff_ammoCookoffDuration = 0.1;
+ace_cookoff_ammoCookoffDuration = 0.2;
 ace_cookoff_enable = true;
 ace_cookoff_enableAmmobox = true;
 ace_cookoff_enableAmmoCookoff = true;
@@ -107,7 +107,7 @@ ace_refuel_hoseLength = 12;
 ace_refuel_rate = 1;
 ace_repair_addSpareParts = true;
 ace_repair_autoShutOffEngineWhenStartingRepair = false;
-ace_repair_consumeItem_toolKit = 0;
+ace_repair_consumeItem_toolKit = 1;
 ace_repair_displayTextOnRepair = true;
 ace_repair_engineerSetting_fullRepair = 1;
 ace_repair_engineerSetting_repair = 1;
@@ -150,7 +150,7 @@ ace_maptools_rotateModifierKey = 1;
 // ACE Medical
 ace_medical_ai_enabledFor = 2;
 ace_medical_AIDamageThreshold = 1;
-ace_medical_allowDeadBodyMovement = false;
+ace_medical_allowDeadBodyMovement = true;
 ace_medical_allowLitterCreation = true;
 ace_medical_allowUnconsciousAnimationOnTreatment = true;
 force ace_medical_amountOfReviveLives = -1;
@@ -178,7 +178,7 @@ ace_medical_medicSetting_basicEpi = 0;
 ace_medical_medicSetting_PAK = 0;
 ace_medical_medicSetting_SurgicalKit = 1;
 ace_medical_menu_allow = 1;
-ace_medical_menu_maxRange = 3;
+ace_medical_menu_maxRange = 5;
 ace_medical_menu_openAfterTreatment = true;
 ace_medical_menu_useMenu = 1;
 ace_medical_menuTypeStyle = 0;
@@ -302,7 +302,7 @@ ace_ui_ammoCount = true;
 ace_ui_ammoType = true;
 ace_ui_commandMenu = true;
 ace_ui_firingMode = true;
-ace_ui_groupBar = false;
+ace_ui_groupBar = true;
 ace_ui_gunnerAmmoCount = true;
 ace_ui_gunnerAmmoType = true;
 ace_ui_gunnerFiringMode = true;
@@ -368,12 +368,3 @@ ace_zeus_remoteWind - false;
 ace_zeus_revealMines - 0;
 ace_zeus_zeusAscension - false;
 ace_zeus_zeusBird - false;
-
-// Task Force Arrowhead Radio
-TF_default_radioVolume - 9;
-TF_give_microdagr_to_soldier - true;
-TF_give_personal_radio_to_regular_soldier - false;
-TF_no_auto_long_range_radio - true;
-TF_same_dd_frequencies_for_side - false;
-TF_same_lr_frequencies_for_side - false;
-TF_same_sw_frequencies_for_side - false;
