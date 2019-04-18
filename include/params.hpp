@@ -102,7 +102,7 @@ class Params
 		title="Display of markers on map";
 		values[]={0,1,2,3};
 		texts[]={"Always show (with type)","Always show marker but hide type (questionmark)","Show marker upon discovery","Never show markers"};
-		default = 2;
+		default = 1;
 	};
     class Param_MotorPools
 	{
