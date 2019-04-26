@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=20;
+		nextID=21;
 	};
 	class Camera
 	{
-		pos[]={7399.0176,164.28285,874.56464};
-		dir[]={-0.15962487,-0.42119989,-0.89294028};
-		up[]={-0.074139692,0.90691566,-0.41473404};
-		aside[]={-0.98450184,5.6023055e-007,0.17598803};
+		pos[]={7151.521,131.35164,569.38031};
+		dir[]={-0.6454829,-0.504906,-0.57328463};
+		up[]={-0.37757918,0.86311835,-0.33534563};
+		aside[]={-0.66413021,9.8720193e-008,0.74776226};
 	};
 };
 binarizationWanted=0;
@@ -185,14 +185,13 @@ addons[]=
 	"CUP_CAMP_Armory_Misc_Concrete_Wall",
 	"A3_Structures_F_Exp_Walls_Concrete",
 	"CUP_WheeledVehicles_HMMWV",
-	"CUP_AirVehicles_AH6",
-	"mapbuilder"
+	"CUP_AirVehicles_AH6"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=109;
+		items=108;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -856,12 +855,6 @@ class AddonsMetaData
 			className="CUP_AirVehicles_AH6";
 			name="CUP_AirVehicles_AH6";
 		};
-		class Item108
-		{
-			className="MapBuilder";
-			name="mapbuilder";
-			author="NeoArmageddon";
-		};
 	};
 };
 randomSeed=7257565;
@@ -961,7 +954,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=576;
+		items=575;
 		class Item0
 		{
 			dataType="Marker";
@@ -21677,40 +21670,6 @@ class Mission
 			id=2557;
 			type="Land_Canal_Dutch_01_bridge_F";
 			atlOffset=0.12221843;
-		};
-		class Item575
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={7391.7876,17.186172,672.92102};
-			};
-			id=2558;
-			type="MapBuilder_Module";
-			atlOffset=0.030435562;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="MapBuilder_Module_Autostart";
-					expression="_this setVariable ['Autostart',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=1;
-			};
 		};
 	};
 	class Connections
